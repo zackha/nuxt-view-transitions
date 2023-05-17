@@ -2,15 +2,15 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "HOST=0.0.0.0 nuxt dev",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/image-edge": "1.0.0-28008586.381b906",
-    "@nuxtjs/tailwindcss": "^6.6.5",
-    "nuxt": "^3.4.0"
+    "@nuxt/image-edge": "1.0.0-28059208.2abef1b",
+    "@nuxtjs/tailwindcss": "^6.7.0",
+    "nuxt": "^3.5.0"
   },
   "pnpm": {
     "overrides": {
