@@ -23,8 +23,7 @@ const active = useState();
           :src="`/tmdb${movie.poster_path}`"
           :alt="movie.title || movie.name"
           class="w-full h-full object-cover rounded"
-          :class="{ active: active === movie.id }"
-        />
+          :class="{ active: active === movie.id }" />
       </NuxtLink>
     </article>
   </section>
